@@ -1,9 +1,32 @@
 
-<ion-content [fullscreen]="true">
-  <div class="container">
-    <ion-img src="assets/bg.png"/>
-    <ion-title>Explore the world </ion-title>
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title class="ion-text-center">
+      RegistrAPP
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="ion-text-center">
+    <ion-img src="assets/duoc.png" alt="RegistrAPP Logo" class="logo"></ion-img>
   </div>
+
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-title class="ion-text-center">
+        ¡Bienvenido a RegistrAPP!
+      </ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Ingresa para Poder Manejar de forma mas optima la asistencia de Duoc UC</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="block" color="warning" routerLink="/registro">Registrarse</ion-button>
+  <ion-button expand="block" color="light" routerLink="/login">Iniciar Sesión</ion-button>
+
   
   <ion-fab  vertical="bottom" horizontal="end" style="margin-bottom: 30px;" >
     <ion-fab-button [routerLink]="['/login']"  >

@@ -1,6 +1,6 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
+    <ion-toolbar color="primary">
       <ion-title size="large">Get strt</ion-title>
     </ion-toolbar>
   </ion-header>
@@ -57,15 +57,10 @@
           <ion-text *ngIf="errorControl.contact.errors?.minlength" class="errorInput" color="danger">Contact should be less than 10 digit..</ion-text>
     
         </div>
-      <p>Or</p>
-      
-    <ion-button color="light" (click)='this.signUpWithGoogle()'>
-      <ion-icon src="assets/icon/google.svg"></ion-icon>
-      <ion-text>Continue with Google</ion-text>
-    </ion-button>
+    
 
       <div class="loginLink">
-        <p class="p">Already a memember? <a [routerLink]="['/login']" style="color: #FFC33F">Log in</a></p>
+        <p class="p">¿Ya tienes cuenta? <a [routerLink]="['/login']" style="color: #131fff">Ingresar</a></p>
       </div>
     </div>
 

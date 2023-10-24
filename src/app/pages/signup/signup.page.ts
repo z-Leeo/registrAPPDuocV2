@@ -68,7 +68,7 @@ export class SignupPage implements OnInit {
 
       if (user) {
         loading.dismiss();
-        this.router.navigate(['/home'])
+        this.router.navigate(['/login'])
       }
     } else {
       return console.log('Please provide all the required values!');
@@ -82,7 +82,7 @@ export class SignupPage implements OnInit {
     console.log(message);
     
     const toast = await this.toastController.create({
-      message: message,
+      message: 'Creando Cuenta',
       duration: 1500,
       position: 'top',
     });

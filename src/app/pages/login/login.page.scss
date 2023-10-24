@@ -21,12 +21,8 @@ ion-item {
     }
 }
 .signupLink{
-    display: flex;
-    margin: auto;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-  position: absolute;
+text-align: center;
+margin: auto;
   left: 0;
   right: 0;
   bottom: 0;
@@ -34,17 +30,12 @@ ion-item {
     .p{
         font-size: 0.9em;
     }
-    a {
-        text-decoration: none;
-      }
+    
 }
 .forgotpassword{
-    display: flex;
-    justify-content: flex-end;
+    text-align: center;
     a {
-    font-weight: 400;
-    font-size: 0.8em;
-        text-decoration: none;
+    font-weight: 500;
       }
 }
 .errorInput{
@@ -53,3 +44,24 @@ ion-item {
     font-size: small;
     padding-top: -16px;
 }
+
+.redesS{
+    text-align: center;
+  }
+  
+  .redes{
+    width: 60px;
+    height: 40px;
+  
+  
+  }
+
+.redesI{
+    width: 60px;
+    height: 40px;
+    color: #dc2d64f4; 
+  color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
