@@ -35,6 +35,23 @@ const routes: Routes = [
     path: 'confirmation',
     loadChildren: () => import('./pages/confirmation/confirmation.module').then( m => m.ConfirmationPageModule)
   },
+  {
+    path: 'rick',
+    loadChildren: () => import('./pages/rick/rick.module').then( m => m.RickPageModule)
+  },
+  {
+    path: 'detalle-personaje/:id',
+    loadChildren: () => import('./pages/detalle-personaje/detalle-personaje.module').then( m => m.DetallePersonajePageModule)
+  },
+  {
+    path: 'intro',
+    loadChildren: () => import('./pages/intro/intro.module').then( m => m.IntroPageModule)
+  },  {
+    path: 'asistencia',
+    loadChildren: () => import('./pages/asistencia/asistencia.module').then( m => m.AsistenciaPageModule)
+  },
+
+
 ];
 
 @NgModule({

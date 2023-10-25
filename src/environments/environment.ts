@@ -12,7 +12,10 @@ export const environment = {
     messagingSenderId: "626739716761",
     appId: "1:626739716761:web:5020f6436b3970ccd7ce08",
     measurementId: "G-B2HVJDG14W"
-  }
+  },
+
+  baseUrl: 'https://rickandmortyapi.com/api/',
+  character: 'character/'
 };
 
 /*
