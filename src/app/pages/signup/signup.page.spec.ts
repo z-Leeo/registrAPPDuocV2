@@ -15,8 +15,11 @@ describe('SignupPage', () => {
     expect(component).toBeTruthy();
   });
 });
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 53d8cb89900e7821a0b77217f94080abd19b8168

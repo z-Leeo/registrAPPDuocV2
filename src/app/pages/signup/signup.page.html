@@ -1,17 +1,29 @@
 <ion-content [fullscreen]="true">
+<<<<<<< HEAD
   <ion-header [translucent]="true">
     <ion-toolbar color="primary">
       <ion-title size="large">Registro</ion-title>
+=======
+  <ion-header collapse="condense">
+    <ion-toolbar color="primary">
+      <ion-title size="large">Get strt</ion-title>
+>>>>>>> 53d8cb89900e7821a0b77217f94080abd19b8168
     </ion-toolbar>
   </ion-header>
 
   <div class="header">
+<<<<<<< HEAD
     <ion-title class="title" size="large">Registrarse</ion-title>
     <p class="subtitle">Comienza creando una cuenta</p>
+=======
+    <ion-title class="title" size="large">Get Started</ion-title>
+    <p class="subtitle">By creating an account</p>
+>>>>>>> 53d8cb89900e7821a0b77217f94080abd19b8168
   </div>
   <form [formGroup]="ionicForm" novalidate>
     <div class="ion-padding">
       <ion-item >
+<<<<<<< HEAD
         <ion-input class="input" formControlName="fullname" placeholder="Nombre completo" />
         <ion-icon slot="end" name="person-outline" style="color: #d0b700;"></ion-icon>
       </ion-item>
@@ -50,6 +62,51 @@
         <ion-text *ngIf="errorControl.contact.errors?.required" class="errorInput" color="danger">Contacto es requerido.</ion-text>
           <ion-text *ngIf="errorControl.contact.errors?.pattern" class="errorInput" color="danger">Contacto debe tener solo numeros</ion-text>
           <ion-text *ngIf="errorControl.contact.errors?.minlength" class="errorInput" color="danger">Contacto debe tener al menos 10 números</ion-text>
+=======
+        <ion-input class="input" formControlName="fullname" placeholder="Fullname" />
+        <ion-icon slot="end" name="person-outline"></ion-icon>
+      </ion-item>
+      <div style="padding-top: -26px;padding-bottom: 16px;"
+        *ngIf="this.ionicForm.controls?.['fullname'].touched && this.ionicForm.controls?.['fullname'].invalid">
+        <ion-text *ngIf="errorControl.fullname.errors?.required" class="errorInput" color="danger">Fullname is
+          required.</ion-text>
+      </div>
+      <ion-item>
+        <ion-input class="input" formControlName="email" placeholder="email" />
+        <ion-icon slot="end" name="mail-outline"></ion-icon>
+      </ion-item>
+      <div style="padding-top: -26px;padding-bottom: 16px;"
+        *ngIf="this.ionicForm.controls?.['email'].touched && this.ionicForm.controls?.['email'].invalid">
+        <ion-text *ngIf="errorControl.email.errors?.required" class="errorInput" color="danger">Email is
+          required.</ion-text>
+        <ion-text *ngIf="errorControl.email.errors?.pattern" class="errorInput" color="danger">Please provide valid
+          email.</ion-text>
+      </div>
+      <ion-item>
+        <ion-input class="input" type="password" formControlName="password" placeholder="password" />
+        <ion-icon slot="end" name="lock-closed-outline"></ion-icon>
+      </ion-item>
+      <div style="padding-top: -26px;padding-bottom: 16px;"
+        *ngIf="this.ionicForm.controls?.['password'].touched && this.ionicForm.controls?.['password'].invalid">
+        <ion-text *ngIf="errorControl.password.errors?.required" class="errorInput" color="danger">Password is
+          required.</ion-text>
+        <ion-text *ngIf="errorControl.password.errors?.pattern" class="errorInput" color="danger">Password must be more than 8 length containing
+          at least one character.
+          at least one Capital letter.
+          at least one number.
+        </ion-text>
+      </div>
+      <ion-item>
+        <ion-input class="input" type="numeric" formControlName="contact" placeholder="contact" />
+        <ion-icon slot="end" name="call-outline"></ion-icon>
+      </ion-item>
+      <div style="padding-top: -26px;padding-bottom: 16px;"
+        *ngIf="this.ionicForm.controls?.['contact'].touched && this.ionicForm.controls?.['contact'].invalid">
+        <ion-text *ngIf="errorControl.contact.errors?.required" class="errorInput" color="danger">Contact is
+          required..</ion-text>
+          <ion-text *ngIf="errorControl.contact.errors?.pattern" class="errorInput" color="danger">Contact should contain only numbers..</ion-text>
+          <ion-text *ngIf="errorControl.contact.errors?.minlength" class="errorInput" color="danger">Contact should be less than 10 digit..</ion-text>
+>>>>>>> 53d8cb89900e7821a0b77217f94080abd19b8168
     
         </div>
     

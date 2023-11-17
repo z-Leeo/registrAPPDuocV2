@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "registrAPP2",
+=======
+  "name": "firebaseAuthApp",
+>>>>>>> 53d8cb89900e7821a0b77217f94080abd19b8168
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -13,6 +17,7 @@
   },
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@angular/animations": "^16.0.0",
     "@angular/common": "^16.0.0",
     "@angular/compiler": "^16.0.0",
@@ -58,12 +63,76 @@
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
+=======
+    "@angular/animations": "^16.2.11",
+    "@angular/common": "^16.2.11",
+    "@angular/core": "^16.2.11",
+    "@angular/fire": "^7.6.1",
+    "@angular/forms": "^16.2.11",
+    "@angular/platform-browser": "^16.2.11",
+    "@angular/platform-browser-dynamic": "^16.2.11",
+    "@angular/router": "^16.2.11",
+    "@capacitor-mlkit/barcode-scanning": "^5.3.0",
+    "@capacitor/android": "^5.5.1",
+    "@capacitor/app": "4.1.1",
+    "@capacitor/core": "^5.5.1",
+    "@capacitor/haptics": "4.1.0",
+    "@capacitor/keyboard": "4.1.1",
+    "@capacitor/splash-screen": "^5.0.6",
+    "@capacitor/status-bar": "4.1.1",
+    "@ionic-native/barcode-scanner": "^5.36.0",
+    "@ionic-native/core": "^5.36.0",
+    "@ionic/angular": "^7.5.2",
+    "expo": "^49.0.16",
+    "expo-build-properties": "~0.8.3",
+    "firebase": "^10.5.0",
+    "ionicons": "^7.0.0",
+    "phonegap-plugin-barcodescanner": "^8.1.0",
+    "rxjs": "~7.5.0",
+    "swiper": "^11.0.2",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.13.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^16.2.8",
+    "@angular-eslint/builder": "^16.2.0",
+    "@angular-eslint/eslint-plugin": "^16.2.0",
+    "@angular-eslint/eslint-plugin-template": "^16.2.0",
+    "@angular-eslint/schematics": "^16.2.0",
+    "@angular-eslint/template-parser": "^16.2.0",
+    "@angular/cli": "^16.2.8",
+    "@angular/compiler": "^16.2.11",
+    "@angular/compiler-cli": "^16.2.11",
+    "@angular/language-service": "^16.2.11",
+    "@capacitor/cli": "4.7.3",
+    "@ionic/angular-toolkit": "^9.0.0",
+    "@types/jasmine": "~4.0.0",
+    "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.39.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsdoc": "30.7.6",
+    "eslint-plugin-prefer-arrow": "1.2.2",
+    "jasmine-core": "~4.3.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.1.0",
+>>>>>>> 53d8cb89900e7821a0b77217f94080abd19b8168
     "karma-coverage": "~2.2.0",
     "karma-coverage-istanbul-reporter": "~3.0.2",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+<<<<<<< HEAD
     "ts-node": "^8.3.0",
     "typescript": "~5.0.2"
   },
   "description": "An Ionic project"
 }
+=======
+    "ts-node": "~8.3.0",
+    "typescript": "~5.1.6"
+  },
+  "description": "An Ionic project"
+}
+>>>>>>> 53d8cb89900e7821a0b77217f94080abd19b8168

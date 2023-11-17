@@ -1,9 +1,16 @@
 import { Injectable } from '@angular/core';
 import { AngularFireAuth, } from '@angular/fire/compat/auth';
 import { GoogleAuthProvider, getAuth, signInWithPopup, } from "firebase/auth";
+<<<<<<< HEAD
 import { Observable, of  } from 'rxjs';
 import { async } from 'rxjs';
 import firebase from 'firebase/compat/app';
+=======
+
+import { async } from 'rxjs';
+import firebase from 'firebase/compat/app';
+import { error, log } from 'console';
+>>>>>>> 53d8cb89900e7821a0b77217f94080abd19b8168
 import {
   CollectionReference,
   DocumentData,
@@ -25,10 +32,13 @@ export class AuthServiceService {
 
   }
 
+<<<<<<< HEAD
   getAuthToken():Observable<boolean>{
     return of(true);
   }
 
+=======
+>>>>>>> 53d8cb89900e7821a0b77217f94080abd19b8168
   async registerUser(email: string, password: string, name: string) {
     return await this.ngFireAuth.createUserWithEmailAndPassword(email, password)
 

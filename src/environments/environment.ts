@@ -17,6 +17,10 @@ export const environment = {
   baseUrl: 'https://rickandmortyapi.com/api/',
   character: 'character/'
 };
+<<<<<<< HEAD
+=======
+
+>>>>>>> 53d8cb89900e7821a0b77217f94080abd19b8168
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
